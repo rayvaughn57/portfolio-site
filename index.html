@@ -23,6 +23,7 @@ a:hover{color:#7C2A0C}
 <div style="display: flex; gap: 36px; font-size: 15px; align-items: center;">
 <a href="#method" style="display: inline-block; padding: 12px 0;">Method</a>
 <a href="#work" style="display: inline-block; padding: 12px 0;">Selected work</a>
+<a href="#notes" style="display: inline-block; padding: 12px 0;">Field notes</a>
 <a href="#practice" style="display: inline-block; padding: 12px 0;">Practice</a>
 <a href="#contact" style="display: inline-block; padding: 12px 20px; border: 1px solid #16181D; border-radius: 4px;">Contact</a>
 </div>
@@ -164,6 +165,57 @@ a:hover{color:#7C2A0C}
 </div>
 </div>
 
+<!-- FIELD NOTES -->
+<div id="notes" style="max-width: 1120px; margin: 0 auto; padding: 112px 40px 0; box-sizing: border-box; display: flex; flex-direction: column; gap: 56px;">
+<div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px;">
+<div style="grid-column: span 5; display: flex; flex-direction: column; gap: 16px;">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #8A3110;">Field notes</div>
+<h2 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 400; font-size: 44px; line-height: 1.1; letter-spacing: -0.01em;">Notes from the mainframe floor</h2>
+</div>
+<p style="grid-column: 7 / span 6; margin: 0; font-size: 18px; line-height: 1.6; color: #3D4148;">Short technical write-ups produced on the job between 2010 and 2012, on z/OS networking, security and mail systems. Each is a PDF you can open or download directly.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;">
+
+<a href="writing-samples/basic-ipsec-traffic.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">Basic IPSec Traffic Troubleshooting on the TMS Network</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">Diagnosing IPSec tunnel refresh and idle-timeout behavior from TCPIP system log and TRMD traffic captures.</p>
+</a>
+
+<a href="writing-samples/zos-communications-server-v1r12.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">z/OS V1R12 Communications Server</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">A summary of new networking features: health-check thresholds, AT-TLS, IKEv2 and trusted TCP connections.</p>
+</a>
+
+<a href="writing-samples/planning-certificate-environment.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">Planning Your Certificate Environment</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">A question-and-answer walkthrough for designing a z/OS PKI and RACF certificate setup.</p>
+</a>
+
+<a href="writing-samples/smtp-email-tms-mainframe.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">SMTP/Email Functions on the TMS Mainframe</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">How SMTP and Sendmail are configured and used within the z/OS Communications Server.</p>
+</a>
+
+<a href="writing-samples/x500-protocol.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">The X.500 Protocol</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">The history and architecture of X.500 directory services and its relationship to LDAP.</p>
+</a>
+
+<a href="writing-samples/zos-vs-unix-linux-introduction.pdf" style="display: flex; flex-direction: column; gap: 14px; padding: 24px; background: #FFFFFF; border: 1px solid #D9D3C4; border-radius: 4px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #8A3110;">PDF</span>
+<h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 21px; line-height: 1.25; color: #16181D;">z/OS vs. Unix/Linux: An Introduction</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #3D4148;">DB2 administration differences between the z/OS and Linux/Unix/Windows platforms.</p>
+</a>
+
+</div>
+</div>
+
 <!-- PRACTICE -->
 <div id="practice" style="max-width: 1120px; margin: 0 auto; padding: 112px 40px 96px; box-sizing: border-box; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; row-gap: 40px;">
 <div style="grid-column: span 5; display: flex; flex-direction: column; gap: 16px;">
@@ -203,7 +255,7 @@ a:hover{color:#7C2A0C}
 
 <!-- FOOTER -->
 <div style="max-width: 1120px; margin: 0 auto; padding: 32px 40px; box-sizing: border-box; display: flex; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #5B5F66;">
-<span>T. A. Haley · Los Angeles</span>
+<span>T. D. Sparks · Los Angeles</span>
 <span>[LINKEDIN] · [GITHUB]</span>
 </div>
 
